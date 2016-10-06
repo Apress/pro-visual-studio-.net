@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconExplorerAddIn", "IconExplorerAddIn\IconExplorerAddIn.csproj", "{E71F3DFA-C057-4A66-9868-EB5A848273ED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IconExplorerAddInSetup", "IconExplorerAddInSetup\IconExplorerAddInSetup.vdproj", "{73DC7D1A-57E2-4EAE-95FB-8F7770B40212}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E71F3DFA-C057-4A66-9868-EB5A848273ED}.Debug.ActiveCfg = Release|.NET
+		{E71F3DFA-C057-4A66-9868-EB5A848273ED}.Debug.Build.0 = Release|.NET
+		{E71F3DFA-C057-4A66-9868-EB5A848273ED}.Release.ActiveCfg = Release|.NET
+		{E71F3DFA-C057-4A66-9868-EB5A848273ED}.Release.Build.0 = Release|.NET
+		{73DC7D1A-57E2-4EAE-95FB-8F7770B40212}.Debug.ActiveCfg = Release
+		{73DC7D1A-57E2-4EAE-95FB-8F7770B40212}.Debug.Build.0 = Release
+		{73DC7D1A-57E2-4EAE-95FB-8F7770B40212}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

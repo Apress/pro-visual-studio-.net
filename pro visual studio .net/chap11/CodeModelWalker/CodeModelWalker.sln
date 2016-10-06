@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeModelWalker", "CodeModelWalker\CodeModelWalker.csproj", "{5911CAAA-9441-4CA1-B010-5740D8EF83B5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CodeModelWalkerSetup", "CodeModelWalkerSetup\CodeModelWalkerSetup.vdproj", "{67C9BE9B-FE03-4918-9C1E-42D36A482EBF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5911CAAA-9441-4CA1-B010-5740D8EF83B5}.Debug.ActiveCfg = Debug|.NET
+		{5911CAAA-9441-4CA1-B010-5740D8EF83B5}.Debug.Build.0 = Debug|.NET
+		{5911CAAA-9441-4CA1-B010-5740D8EF83B5}.Release.ActiveCfg = Release|.NET
+		{5911CAAA-9441-4CA1-B010-5740D8EF83B5}.Release.Build.0 = Release|.NET
+		{67C9BE9B-FE03-4918-9C1E-42D36A482EBF}.Debug.ActiveCfg = Debug
+		{67C9BE9B-FE03-4918-9C1E-42D36A482EBF}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

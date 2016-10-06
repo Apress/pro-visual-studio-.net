@@ -1,0 +1,6 @@
+VSWIZARD 6.0
+Wizard=VsWizard.VsWizardEngine.7.1
+Param="WIZARD_NAME = Exception"
+Param="WIZARD_UI = FALSE"
+Param="PROJECT_TYPE = VBPROJ"
+

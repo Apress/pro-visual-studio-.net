@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAddin", "DemoAddin.csproj", "{EA736D62-1BC3-4C1A-AB4E-D10F4AB775AB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DemoAddinSetup", "DemoAddinSetup\DemoAddinSetup.vdproj", "{0601C5D8-2556-40B3-A26E-A3AC91356462}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EA736D62-1BC3-4C1A-AB4E-D10F4AB775AB}.Debug.ActiveCfg = Debug|.NET
+		{EA736D62-1BC3-4C1A-AB4E-D10F4AB775AB}.Debug.Build.0 = Debug|.NET
+		{EA736D62-1BC3-4C1A-AB4E-D10F4AB775AB}.Release.ActiveCfg = Release|.NET
+		{EA736D62-1BC3-4C1A-AB4E-D10F4AB775AB}.Release.Build.0 = Release|.NET
+		{0601C5D8-2556-40B3-A26E-A3AC91356462}.Debug.ActiveCfg = Debug
+		{0601C5D8-2556-40B3-A26E-A3AC91356462}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
